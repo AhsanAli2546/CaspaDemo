@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background: url(images/caspa24bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.content-container{
+    background-color: #FFFFFF;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-color: #0057A4;
+    padding: 10px 0;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+
+.org-logo {
+    background-image: url(logo/caspa-logo.jpg);
+    background-size: cover;
+    height: 60px;
+    width: 300px;
+    background-position: 0px;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+.overlay-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    opacity: 0.6;
+    z-index: -1;
+    transition: all .8s;
+} 
+
+div{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}   
+
+h1{
+    font-size: 60px;
+    line-height: 60px;
+    padding: 30px 0;
+    text-align: center;
+    color: #154061;
+    font-weight: 100;
+    font-family: Scala,serif;
+    margin: 0 0 15px;
+
+}
+
+div .colored-column{
+    background-color: #154061;
+}
+
+section{
+    font-family: ScalaSans,sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+
+}
+
+
+
+.login-form-card-color{
+    background: rgba(255,255,255,0.8) !important;
+}
+
+
+.borderless-input{
+    border:none !important;
+}
+
+.input-field-color{
+    background-color: #ffffff;
+
+}
+
+.input-field{
+    
+    height: 50px;
+    line-height: 25px;
+    line-height: 2.5rem;
+    font-size: 19px;
+    font-size: 1.9rem;
+    color: #666;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 2px solid #dfdfdf;
+    box-shadow: 0 2px 0 rgba(0,0,0,.05) inset;
+}
+
+
+
+.icon{
+    padding: 15px;
+     background-color: #f2f2f2;
+     color: #256cb0;
+     font-size: 16px;
+}
+
+
+
+.signIn-btn{
+    margin: 8px 0px 8px 0px;
+    width: 100%;
+    font-weight: 700;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 2px;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    vertical-align: middle;
+    line-height: 29px;
+    background-color: #256cb0;
+}
+
+
+
+.links-Section{
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+
+}
+
+.link{
+    width: 100%;
+    display: block;
+    text-decoration: underline;
+    font-size: 15px;
+    line-height: 15px;
+    line-height: 1.5rem;
+    color: #256cb0!important;
+}
+
